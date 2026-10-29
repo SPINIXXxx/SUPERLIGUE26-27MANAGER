@@ -14,6 +14,10 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
+export default defineConfig({
+  base: '/SUPERLIGUE26-27MANAGER/',
+  // ...
+})
     },
   },
 });
